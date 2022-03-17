@@ -29,7 +29,7 @@ export default function SocialsButton({ links = {} }) {
     ]
 
     return (
-        <Stack direction={{ sm: 'column', md: 'row' }} spacing={2} flexWrap="wrap" alignItems="center" sx={{ marginTop: { xs: '4em !important', lg: '8em !important' } }}>
+        <Stack direction={{ xs: 'column', md: 'row' }} spacing={2} flexWrap="wrap" alignItems="center" sx={{ my: { xs: '4em !important', lg: '8em !important' } }}>
             {SOCIALS.map((social) => {
                 const { name, icon, path, socialColor } = social;
                 return (
